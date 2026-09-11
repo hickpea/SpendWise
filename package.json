@@ -1,0 +1,24 @@
+{
+  "name": "spendwise",
+  "version": "1.0.0",
+  "description": "Online ATM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch index.js --watch config --watch controllers --watch middlewares --watch models --watch routes --watch utils --watch views --ext js,ejs,json index.js"
+  },
+  "keywords": [
+    "ATM",
+    "money"
+  ],
+  "author": "Sahejgur Singh Jaura",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4",
+    "nodemon": "^3.1.14"
+  }
+}
