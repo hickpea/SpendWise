@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "dev": "nodemon --watch index.js --watch config --watch controllers --watch middlewares --watch models --watch routes --watch utils --watch views --ext js,ejs,json index.js"
   },
   "keywords": [
